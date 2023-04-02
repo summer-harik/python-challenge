@@ -3,7 +3,7 @@ import os
 import csv
 
 #assign path for csv file
-csvpath = os.path.join('/Users/summerharik/Documents', 'PythonStuff', 'election_data.csv')
+csvpath = os.path.join('Resources', 'election_data.csv')
 
 #dict to hold candidate values
 candidates = {}
