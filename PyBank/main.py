@@ -3,7 +3,7 @@ import os
 import csv
 
 #assign path for csv file
-csvpath = os.path.join('/Users/summerharik/Documents', 'PythonStuff', 'budget_data.csv')
+csvpath = os.path.join('Resources', 'budget_data.csv')
 
 #list to hold p/l values
 p_l_list = []
