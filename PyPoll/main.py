@@ -46,7 +46,7 @@ print(f"Total Votes: {vote_count}")
 print(f"{candidates}")
 print("Winner: " + winner_name)
 
-output_file = os.path.join('/Users/summerharik', 'Desktop','PyPoll_Analysis.txt')
+output_file = os.path.join('Analysis','PyPoll_Analysis.txt')
 
 f = open(output_file, "w")
 
