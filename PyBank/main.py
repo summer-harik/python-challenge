@@ -63,7 +63,7 @@ with open(csvpath) as csvfile:
     print(f"Greatest Decrease in Profits: {greatest_dec_date} ${greatest_dec}")
 
 #export to txt file
-output_file = os.path.join('/Users/summerharik', 'Desktop','PyBank_Analysis.txt')
+output_file = os.path.join('Analysis','PyBank_Analysis.txt')
 
 f = open(output_file, "w")
 
